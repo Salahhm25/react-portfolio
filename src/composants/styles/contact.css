@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+input,textarea{
+  width: 100%;                  
+  padding: 12px;                         
+  border: 1px solid #ccc;       
+  border-radius: 6px;           
+  font-family: inherit;
+}
+
+textarea{
+  min-height: 120px;
+  max-height: 199px;
+  resize: vertical;
+}
+.contactmepage{
+    background:linear-gradient(180deg,#a5bfe6,#3563a8);
+}
+.formulaire{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formitems{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 12px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    background-color: #007bff;
+    border-radius: 50px;
+    width: 250px;
+    transition: all 0.3s ease;
+}
+.submit:hover{
+    transform: translateY(-2px);
+    background-color: #007bffd3;
+}
+.submit:active{
+    transform: translate(0px);
+}
+.submit:focus{
+    outline: 4px solid #007bff;
+    outline-offset: 3px;
+}

@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px; /* Optional spacing */
+}
+* {
+  box-sizing: border-box;
+}
+/* Individual sections */
+
+#section1 {
+    background-color: #1b3254;
+    padding-top: 80px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#section2 {
+  height: auto;
+  min-height: 100vh;
+}
+

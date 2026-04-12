@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.time{
+   color:rgb(21, 13, 13);
+   margin-top: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 900;
+   letter-spacing: 2px;
+   text-shadow: 2px 2PX 5px #0D6EFD;
+}
