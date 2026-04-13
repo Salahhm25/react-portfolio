@@ -12,22 +12,27 @@ body,*{
 .name{
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     color: #0D6EFD;
     letter-spacing: 2px;
+    padding-left:0px;
+    padding-top: 20px;
 }
 .nav{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height: 80px;
     background-color:aliceblue;
-    justify-content:space-around;
     align-items: center;
+    height: auto;
+    padding: 15px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .links{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
+    font-size: 0.7rem;
 }
 .alinks{
     text-decoration: none;
@@ -52,4 +57,20 @@ body,*{
 
 .alinks:hover::after {
     width: 100%;
+}
+@media (min-width: 768px) {
+    .nav {
+        height: 80px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .links {
+        margin-top: 0;
+        font-size: 1.02rem;
+        gap: 40px;
+    }
+    .name{
+        font-size: 2rem;
+        padding-top: 0px;
+    }
 }

@@ -141,3 +141,21 @@ body {
     outline: 2px solid rgba(0, 123, 255, 0.4);
     outline-offset: 3px;
 }
+.four-cards, .two-cards {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+@media (min-width:640px){
+    .four-cards, .two-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1024px) {
+    .four-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -6,4 +6,12 @@
    font-weight: 900;
    letter-spacing: 2px;
    text-shadow: 2px 2PX 5px #0D6EFD;
+   font-size: 0.7rem;
+}
+
+@media (min-width:654px){
+   .time{
+      font-size: 1rem;
+   }
+   
 }

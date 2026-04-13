@@ -6,13 +6,13 @@
     justify-content: center;
     font-family: sans-serif;
     flex-direction: column;
+    padding-left: 20px;
 }
 .about-grid{
-    display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    gap: 20px;
-    max-width: 1100px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
 }
 .section-eyebrow{
     font-size:11px;
@@ -27,7 +27,7 @@
 }
 .heading {
   font-family: serif;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.12;
   font-weight: 700;
   margin-bottom: 28px;
@@ -56,7 +56,8 @@
   gap: 1px;
   align-content: center;
   justify-items: center;
-  width: 400px;
+  width: 100%; 
+  max-width: 400px;
   height: 200px;
   background-color: #e8c97e;
 }  
@@ -67,6 +68,7 @@
   width: 198px;
   height: 98px;
   background-color: #1c304f;
+  width: 100%;
 }
 
 .stat-value{
@@ -95,7 +97,8 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   flex-direction: row;
-  width: 400px;
+  width: 100%; /* Remove fixed 400px */
+  max-width: 500px;
 }
 .skill-meta{
   display: flex;
@@ -147,4 +150,14 @@
 @keyframes ulse{
   0%, 100% {opacity: 1;}
   50% {opacity: 0;}
+}
+
+@media (min-width: 992px) {
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+    }
+    .heading {
+        font-size: 3rem;
+    }
 }
