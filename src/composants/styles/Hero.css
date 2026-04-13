@@ -31,13 +31,13 @@
 .btn {
   margin-top: 30px;
   border: none;
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 180px;
   border-radius: 20px;
   background: linear-gradient(135deg, #fffa23, #bc9400);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #161618;
   display: flex;
   align-items: center;
@@ -51,8 +51,8 @@
 .btn:hover {
 
   background: linear-gradient(10deg, #f7f718, #f6bd04);
-  width: 205px;
-  height: 52px;
+  width: 185px;
+  height: 47px;
 }
 .btn-online{
     background: linear-gradient(10deg, #0c1e39, #4a74b3);
@@ -60,8 +60,8 @@
 }
 .btn-online:hover{
   background: linear-gradient(10deg, #0d6efd, #06367d);
-  width: 205px;
-  height: 52px;
+  width: 185px;
+  height: 47px;
 }
 
 .here-img{
@@ -89,5 +89,14 @@
     .here-img{
         width: 100%;
         max-width: 450px;
+    }
+    .btn{
+        width: 200px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+    .btn:hover{
+        width: 205px;
+        height: 52px;
     }
 }

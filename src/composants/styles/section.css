@@ -1,14 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
-
+* {
+  box-sizing: border-box;
+}
 section {
   height: auto;
   min-height: 100vh;
   width: 100%;
   max-width: 100%;
-  padding: 0px;
-  margin: 0px; /* Optional spacing */
+  margin: 0px; 
+  padding: 40px 20px; 
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -17,13 +20,19 @@ section {
 
 #section1 {
     background-color: #1b3254;
-    padding-top: 80px;
-    height: 100vh;
     box-sizing: border-box;
+    padding-top: 100px; 
+    height: auto; 
 }
+
 
 #section2 {
   height: auto;
   min-height: 100vh;
+}
+@media (min-width:645px){
+  .section{
+    padding: 0px;
+  }
 }
 
