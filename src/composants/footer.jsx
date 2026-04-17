@@ -10,6 +10,7 @@ export default function Footer() {
                 <div className="logo">
                     <img src={logo} alt="" className='pic'/>
                 </div>
+                <div></div>
                 <div className="liens">
                     <a href="https://github.com/Salahhm25" className="lien">GitHub</a>
                     <a href="https://www.upwork.com/freelancers/~01c45ce16cf6792bab?qpn-profile-completeness=employment" className="lien">Upwork</a>
